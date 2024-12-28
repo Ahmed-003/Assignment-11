@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=PT+Serif&display=swap');
+
+
+body{
+  background-color: black;
+}
+
+
+.firstindex h1{
+    font-size: xx-large;
+    font-family: sans-serif;
+    border-bottom: 2px solid white;
+    text-align: center;
+    color: white;
+}
+
+
+.secondlink a {
+    font-size:xx-large;
+    color: white;
+}
+
+.firstlink a {
+    font-size:xx-large;
+    color: white;
+}
+
+
+
+
+.secondbody {
+  background-color: white;
+  font-family: 'PT Serif', serif;
+  color: #404040;
+  padding: 0 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.lone {
+  font: 700 4rem/1 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.lone1 {
+  font: 3rem/.95 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.lone3 {
+  font: 2rem/.95 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+time {
+  font: 700 1.5rem 'Oswald', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+  padding: 12px 0;
+  display: block;
+}
+time sup {
+  font-size: .875rem;
+  font-weight: normal;
+}
+
+blockquote {
+  font: 1.8rem/1.25 'Oswald', sans-serif;
+  margin: 1.5rem 2rem;
+}
+
+
+@counter-style emoji {
+  symbols: "\2615";
+  system: cyclic;
+  suffix: " ";
+} 
+article ul { 
+  list-style: emoji 
+}
+
+img { 
+  /* filter: grayscale(100%) */
+ }
+
+figure {
+  margin: 0 0 12px 0;
+  text-align: center;
+}
+
+figcaption {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+article {
+    column-count: 3;
+    column-rule: 2px solid #333333;
+    column-gap: 42px;
+    margin-top: 36px;
+  }
+
+blockquote { 
+    column-span: all
+   }
+
+figure {
+     break-inside: avoid 
+    }
+
+
+p {
+    text-align: justify;
+    hyphens: auto;
+  }
+
+figure {
+    float: left;
+    margin-right: 24px;
+  }
+
+.thirdbody{
+  font-family: sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  }
+
+.info{
+  display: flex;
+  justify-content: center;
+
+}  
+
+.info h1{
+  width: 40rem;
+  background-color: lightgreen;
+  text-align: center;
+  color: green;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.imge{
+  width: 50px;
+  height: 50px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr td{
+  text-align: center;
+  padding-top: 10px;
+}
+
+table tr td button{
+  padding: 10px;
+  background-color: lightgreen;
+  color: darkgreen;
+  border: 1px solid black;
+}
+
+.firsttr{
+  color: green;
+  font-weight: bold;
+}
+
+.eemail{
+  color: green;
+  font-weight: bold;
+}
+
+.two{
+  background-color: #c5fcc5;
+}
+
+table tr td button:hover{
+  background-color: darkgreen;
+  color: lightgreen;
+  transition: 0.3s ease-in-out;
+}
+
+
+      
+
+  
